@@ -1,0 +1,15 @@
+﻿@using BS.Data.Model.System;
+
+
+@model  User
+@using (Html.BeginForm())
+{
+	@Html.ValidationSummary()
+	 @Html.LabelFor(t=> t.Login)
+	 @Html.TextBoxFor(t=> t.Login)
+
+
+	@Html.LabelFor(t => t.Password)
+	@Html.TextBoxFor(t => t.Password)
+	<input type="submit" value="Огонь" />
+}

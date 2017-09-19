@@ -1,0 +1,16 @@
+﻿@using BS.Data.Model.System;
+@using System.Collections;
+
+
+@model List<User>
+@{
+	<table>
+		@foreach (User item in Model)
+		{
+			<tr>
+				<td>@item.FirstName</td>
+			</tr>
+
+		}
+	</table>
+}
