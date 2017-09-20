@@ -19,7 +19,7 @@ namespace BS.Controllers
 		{
 			//foreach( var service in db.Services.First())
 		 
-			return View(_context.ServiceTypes.First());
+			return View(_context.Users.First());
 		}
 
 		public IActionResult About()

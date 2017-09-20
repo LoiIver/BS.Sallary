@@ -2,11 +2,13 @@
 
 namespace BS.Data.Model
 {
-	public class CompanyType
+	public class LegalForm
 	{
 		[Key]
-		public long CompanyTypeId { get; set; }
+		public long LegalFormId { get; set; }
 		public string Name { get; set; }
+
+		public bool IsCommercial { get; set; }
 
 	}
 }
